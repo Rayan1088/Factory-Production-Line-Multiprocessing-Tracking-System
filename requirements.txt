@@ -3,6 +3,7 @@ lap==0.5.12             # Linear assignment for tracking (Streamlit cloud app)
 pandas
 numpy<2                 # Streamlit cloud app deploy support
 libsql-client
-streamlit
+streamlit>=1.28.0
+altair>=5.0.0
 opencv-python-headless  # if you don’t need GUI then use headless of the opencv-python .
 pyyaml
