@@ -23,6 +23,9 @@ def load_config(config_path):
         raise CustomException(e, sys)
 
 def load_yolo_model(model_path):
+    # This is a defense-in-depth strategy: instead of blindly trusting a model file, 
+    # we declare exactly which types are acceptable. It's especially important when
+    # loading models from untrusted or public sources.
     original_torch_load = torch.load
     safe_globals_list = [torch.nn.modules.container.Sequential ,
                          torch.nn.modules.conv.Conv2d,
