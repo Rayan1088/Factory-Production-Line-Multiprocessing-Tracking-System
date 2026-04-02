@@ -1,7 +1,5 @@
 # 🏭 Factory-Production-Line-Multiprocessing-Tracking-System
 
-- App Link - https://factory-appuction-line-multiprocessing-tracking-system-wvyohbv.streamlit.app/ 
-
 A real-time factory production line simulation and tracking system built with Python, featuring parallel processing capabilities and an interactive Streamlit dashboard.
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://factory-appuction-line-multiprocessing-tracking-system-wvyohbv.streamlit.app/)
